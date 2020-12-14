@@ -1,0 +1,15 @@
+CREATE DATABASE CustomerCarHireCRUD;
+USE CustomerCarHireCRUD;
+CREATE TABLE CarHireDetails (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    phone VARCHAR(255) NOT NULL,
+    location VARCHAR(100) NOT NULL,
+    duration VARCHAR(255) NOT NULL,
+    carname VARCHAR(255) NOT NULL,
+    carplateno VARCHAR(255) NOT NULL,
+    payment VARCHAR(255) NOT NULL
+);
+
+
